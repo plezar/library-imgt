@@ -212,6 +212,25 @@
       "sources": [
         "http://www.imgt.org/genedb/GENElect?query=7.14+IGLJ&species=Rattus+norvegicus"
       ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/rat_C_IGH",
+      "geneType": "C",
+      "chain": "IGH",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 0
+        },
+        {
+          "point": "CEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=14.1+IGHC&species=Rattus+norvegicus"
+      ]
     }
   ]
 }
